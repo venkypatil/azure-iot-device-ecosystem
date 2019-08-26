@@ -1,12 +1,12 @@
 ---
-platform: {enter the OS name running on edge device}
-device: {enter your device name here}
-language: {enter the language used to you edge device}
+platform: Windows 10 Enterprise 2019
+device: ztC Edge 110i
+language: Java
 ---
 
 *We highly recommend keeping this document current, and Microsoft reserves a right to remove devices and documents from the Azure IoT Device Catalog if document contains broken URL links, incorrect information etc.*
 
-Run a simple {enter the language used to you edge device} sample on {enter your device name here} device running {enter the OS name running on edge device. Specify distribution or Windows SKU information. Ex: Ubuntu Sever 16.04, Windows 10 IoT Core. Only [Tier 1 OS](https://docs.microsoft.com/en-us/azure/iot-edge/support) is allowed}
+Run a simple java sample on ztC Edge 110i device running Windows 10 Enterprise 2019
 ===
 ---
 
@@ -19,19 +19,12 @@ Run a simple {enter the language used to you edge device} sample on {enter your 
 -   [Step 4: Next Steps](#NextSteps)
 -   [Step 5: Troubleshooting](#Step-5-Troubleshooting)
 
-# Instructions for using this template
-
--   Replace the text in {placeholders} with correct values.
--   Delete the lines {{enclosed}} after following the instructions enclosed between them.
--   It is advisable to use external links, wherever possible.
--   Remove this section from final document.
-
 <a name="Introduction"></a>
 # Introduction
 
 **About this document**
 
-This document describes how to connect {enter your device name here} device running {enter the OS name running on edge device} with Azure IoT Edge Runtime pre-installed and Device Management. This multi-step process includes:
+This document describes how to connect ztC Edge 110i device running Windows 10 Enterprise 2019 with Azure IoT Edge Runtime pre-installed and Device Management. This multi-step process includes:
 
 -   Configuring Azure IoT Hub
 -   Registering your IoT device
@@ -48,13 +41,14 @@ You should have the following items ready before beginning the process:
 -   [Sign up to IOT Hub](https://account.windowsazure.com/signup?offer=ms-azr-0044p)
 -   [Add the Edge Device](https://docs.microsoft.com/en-us/azure/iot-edge/quickstart)
 -   [Add the Edge Modules](https://docs.microsoft.com/en-us/azure/iot-edge/quickstart#deploy-a-module)
--   {enter your device name here} device.
--   {{Please specify if any other software(s) or hardware(s) are required.}}
+-   Windows 10 Enterprise 2019 device.
 
 <a name="PrepareDevice"></a>
 # Step 2: Prepare your Device
 
--   {{Write down the instructions required to setup, configure and connect your device. Please use external links when possible pointing to your own page with device preparation steps.}}
+-   1. Refer to the [Stratus ztC Documentation](http://ztcedgedoc.stratus.com/2.0.0.0/en-us/Default.htm?_ga=2.59464810.617386818.1566488315-1069387200.1564604960) to setup a new ztC Edge 110i systems.
+-   2. Using the Stratus ztC documentaion install a new Windows 10 Enterprise 2019 VM.
+-   3. Follow the Azure documentation to install [Azure IoT Edge Runtime](https://docs.microsoft.com/en-us/azure/iot-edge/how-to-install-iot-edge-windows)
 
 <a name="Manual"></a>
 # Step 3: Manual Test for Azure IoT Edge on device
